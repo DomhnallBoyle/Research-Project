@@ -1,0 +1,6 @@
+Epochs: 2000
+Batch Size: 40
+Training steps: 798
+Validation steps: 199
+Number training samples: 31920
+Number validation samples: 7982

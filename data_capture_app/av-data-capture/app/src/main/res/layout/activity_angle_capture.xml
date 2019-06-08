@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/angles_capture_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerInParent="true"
+    android:layout_weight="1">
+
+    <Button
+        android:id="@+id/button_capture_angles_start"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="START"
+        android:textSize="12dp"/>
+
+    <Spinner
+        android:id="@+id/aps_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/textview_capture_angles_angle"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/value_format"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textview_capture_angles_time"
+        android:layout_width="213dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/textview_capture_angles_angle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-45dp"
+        android:text="Time: 00:00:000"
+        android:textColor="#FF0000"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+</RelativeLayout>

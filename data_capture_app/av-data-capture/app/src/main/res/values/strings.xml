@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AVDataCapture</string>
+
+    <!-- Text view labels for orientation data -->
+    <string name="label_angle_string">Angle:</string>
+
+    <!-- String for the orientation values. The %1$.2f part is a placeholder
+     that will be filled in at runtime:
+     %1 is the value to replace
+     $.2f says the value is a float, with two decimal places.  -->
+    <!--<string name="value_format">X: %1$.2f, Y: %2$.2f, Z: %3$.2f</string>-->
+    <string name="value_format">Azimuth: %1$.2f</string>
+    <string name="time_format">Time: %1:%2$02d:%3$03d</string>
+</resources>

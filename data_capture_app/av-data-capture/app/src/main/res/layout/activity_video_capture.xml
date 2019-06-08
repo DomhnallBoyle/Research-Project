@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/surface_camera"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerInParent="true"
+    android:layout_weight="1">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <FrameLayout
+            android:id="@+id/videoview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+        </FrameLayout>
+        <Button
+            android:id="@+id/button_record"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="REC"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/textview_angle"
+            android:layout_width="210dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/value_format"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textview_time"
+            android:layout_width="213dp"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@+id/textview_angle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="-45dp"
+            android:text="Time: 00:00:000"
+            android:textColor="#FF0000"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
