@@ -70,7 +70,7 @@ ptyprocess==0.6.0
 pycosat==0.6.3
 pycparser==2.18
 pygame==1.9.4
-Pygments==2.2.0
+Pygments==2.7.4
 pyOpenSSL==18.0.0
 pyparsing==2.3.0
 pyscreenshot==0.5.1
